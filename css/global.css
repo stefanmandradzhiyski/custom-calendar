@@ -1,0 +1,47 @@
+/* Global elements style design */
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#modal-clock-image {
+	width: 5%;
+	height: 5%;
+}
+
+#time {
+	font-size: 0.9vw;
+	color: #4E5354;
+}
+
+.limitation-label {
+	font-size: 0.8vw;
+	color: #4E5354;
+}
+
+#previous-week {
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 1.3vw;
+}
+
+#previous-week:hover {
+	cursor: pointer;
+	font-size: 1.6vw;
+}
+
+#next-week {
+	background: transparent;
+	outline: none;
+	border: none;
+	font-size: 1.3vw;
+	margin-top: 0.5vw;
+	margin-left: 0.5vw;
+}
+
+#next-week:hover {
+	cursor: pointer;
+	margin-top: 0.3vw;
+	font-size: 1.6vw;
+}

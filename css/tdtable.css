@@ -1,0 +1,34 @@
+/* Main table style design */
+#todo-table {
+    table-layout: fixed;
+	float: left;
+	border-collapse: collapse;
+	height: 100%;
+	width: 92vw;
+}
+
+#todo-table th {
+	font-size: 0.9vw;
+	height: 2.5vw;
+	width: 3vw;
+	background-color: #7CBDD2;
+	color:white;
+}
+
+#todo-table tr {
+	text-align: center;
+	border: 1px solid #BFD0D5;
+}
+
+#todo-table td {
+	height: 3vw;
+	font-size: 0.8vw;
+	text-align: center;
+	border: 1px solid #BFD0D5;
+	word-wrap: break-word;
+}
+
+#todo-table td:hover{
+	cursor: pointer;
+	border: 1px solid #7CBDD2;
+}

@@ -1,0 +1,111 @@
+/* Task modal style design */
+#modal {
+	text-align: center;
+  	display: none;
+  	position: fixed; 
+  	z-index: 1; 
+  	padding-top: 100px; 
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	height: 100%; 
+  	overflow: auto; 
+  	background-color: rgb(0,0,0); 
+  	background-color: rgba(0,0,0,0.4); 
+}
+
+#modal-content {
+	text-align: center;
+  	background-color: #FFF;
+  	margin: auto;
+  	padding: 20px;
+  	border: 1px solid #888;
+  	width: 15%;
+}
+
+#modal-button-close {
+  	color: #aaaaaa;
+  	float: right;
+  	font-size: 1.5vw;
+  	font-weight: bold;
+}
+
+#modal-button-close:hover,focus {
+  	color: #000;
+  	text-decoration: none;
+  	cursor: pointer;
+}
+
+#modal-text-title {
+	text-align: center;
+	outline: none;
+	border: none;
+	width: 80%;
+	font-size: 0.9vw;
+	padding: 2%;
+	border-bottom: 2px solid #7C8487;
+	border-right: 2px solid transparent;
+}
+
+#modal-text-title:hover,focus {
+	border-bottom: 2px solid #7CBDD2;
+	border-right: 2px solid #7CBDD2;
+}
+
+#modal-text-title[disabled] {
+	background-color: white;
+}
+
+#modal-textarea-description {
+	text-align: center;
+	width: 80%;
+	height: 5vw;
+	font-size: 0.9vw;
+	padding: 2%;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #7C8487;
+	border-right: 2px solid transparent;
+}
+
+#modal-textarea-description:hover,focus {
+	border-bottom: 2px solid #7CBDD2;
+	border-right: 2px solid #7CBDD2;
+}
+
+#modal-textarea-description[disabled] {
+	background-color: white;
+}
+
+#modal-imagebutton-for-edit {
+	width: 1.3vw;
+	height: 1.5vw;
+}
+
+#modal-imagebutton-for-edit:hover {
+	cursor: pointer;
+}
+
+#modal-imagebutton-delete {
+	width: 1.5vw;
+	height: 1.5vw;
+}
+
+#modal-imagebutton-delete:hover {
+	cursor: pointer;
+}
+
+.modal-button-main {
+	width: 84%;
+	height: 2vw;
+	font-size: 1vw;
+	padding: 2%;
+	background-color: #7CBDD2;
+	border: 1px solid #6BB4F0;
+	color: white;
+}
+
+.modal-button-main:hover {
+	font-size: 1.1vw;
+	cursor: pointer;
+}

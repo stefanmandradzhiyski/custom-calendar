@@ -1,0 +1,26 @@
+/* Clock table style design */
+#clock-table {
+	float: left;
+	border-collapse: collapse;
+	height: 100%;
+	width: 3vw;
+	margin-right:10px;
+}
+
+#clock-table th {
+	font-size: 14px;
+	height: 2.5vw;
+	width: 3vw;
+}
+
+#clock-table tr {
+	text-align: right;
+	border-top: 1px solid transparent;
+}
+
+#clock-table td {
+	height: 3vw;
+	font-size: 0.8vw;
+	text-align: right;
+	border-top: 1px solid transparent;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+		<!--styles-->
+		<link rel="stylesheet" href="css/global.css">
+		<link rel="stylesheet" href="css/modal.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/ctable.css">
+		<link rel="stylesheet" href="css/tdtable.css">
+		<!--scripts-->
+		<script src="js/global/jquery-3.4.1.min.js"></script>
+		<script src="js/global/global-vc.js"></script>
+		<script src="js/modal/preconfig-modal.js"></script>
+		<script src="js/modal/config-modal.js"></script>
+		<script src="js/modal/modal.js"></script>
+		<script src="js/header/config-header.js"></script>
+		<script src="js/header/header.js"></script>
+		<script src="js/table/table.js"></script>
+		<!--title-->
+		<title>TO-DO Calendar</title>
+	</head>
+<body>
+
+	
+	<header>
+		<!-- month container -->
+		<div id="month-container">
+			<button id="button-decrease-month" class="button-control-design"><</button>
+			<h1 id="current-month"></h1>
+			<button id="button-increase-month" class="button-control-design">></button>
+		</div>
+
+		<!-- year container -->
+		<div id="year-container">
+			<button id="button-decrease-year" class="button-control-design">-</button>
+			<h1 id="current-year"></h1>
+			<button id="button-increase-year" class="button-control-design">+</button>
+		</div>
+
+	</header>
+
+	<!-- clock table -->
+	<table id="clock-table">
+		<tr>
+			<th><button id="previous-week"><</button></th>
+		</tr>
+	</table>
+
+	<!-- calendar table -->
+	<table id="todo-table">
+		<tr id="header-row">
+		</tr>
+	</table>
+
+	<button id="next-week">></button>
+
+	<!-- modal -->
+	<div id="modal">
+		<div id="modal-content">
+
+			<span id="modal-button-close">&times;</span><br><br>
+
+			<label class="limitation-label" id="modal-label-title">Title</label><br>
+			<input type="text" id="modal-text-title" placeholder="Enter title"><br>
+			<label class="limitation-label" for="modal-text-title">up to 30 symbols</label><br><br>
+
+			<label class="limitation-label" id="modal-label-description">Description</label><br>
+			<textarea id="modal-textarea-description" placeholder="Write short description"></textarea><br>
+			<label class="limitation-label" for="modal-texarea-description">up to 120 symbols</label><br><br>
+
+			<img src="img/clock.png" id="modal-clock-image"><span id="time"></span><br><br>
+
+			<img src="img/edit.png" id="modal-imagebutton-for-edit" class="image-buttons"><span></span>&nbsp;&nbsp;&nbsp;<img src="img/delete.png" id="modal-imagebutton-delete" class="image-buttons"><br>
+
+			<button id="modal-button-add" class="modal-button-main">Add</button><br><br>
+			<button id="modal-button-edit" class="modal-button-main">Edit</button><br><br>
+			
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* Header elements style design */
+#month-container {
+	margin-top: 1vw;
+	margin-bottom: 0.5vw;
+	height: 1.6vw;
+	margin-left: 43vw;
+	width: 13.2vw;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid #9AB4BC;
+}
+
+#year-container {
+	margin-top: 1vw;
+	margin-bottom: 0.5vw;
+	height: 1.6vw;
+	margin-left: 30.6vw;
+	width: 8vw;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid #9AB4BC;
+	display: inline-block;
+}
+
+#current-month {
+	margin: 0px;
+	margin-top: 0.1vw;
+	padding: 0px;
+	font-size: 1.2vw;
+	width: 9.2vw;
+	float: left;
+	text-align: center;
+	color: #6C8289;
+}
+
+#current-year {
+	margin: 0px;
+	margin-top: 0.1vw;
+	padding: 0px;
+	font-size: 1.2vw;
+	width: 4vw;
+	float: left;
+	text-align: center;
+	color: #6C8289;
+}
+
+.button-control-design {
+	height: 100%;
+	width: 2vw;
+	float: left;
+	text-align: center;
+	outline: none;
+	background-color: white;
+	font-size: 1.2vw;
+	font-weight: bold;
+	color: #5C6062;
+	border: none;
+	outline: none;
+}
+
+.button-control-design:hover {
+	font-size: 1.4vw;
+	color: white;
+	background-color: #7CBDD2;
+	cursor: pointer;
+}
